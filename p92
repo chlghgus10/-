@@ -1,0 +1,8 @@
+n, m, k=map(int, input().split())
+sum=0
+a=list(map(int, input().split()))
+a.sort()
+i=m//k
+j=m%k
+sum=(a[n-1]*i*k)+(a[n-2]*j)
+print(sum)
