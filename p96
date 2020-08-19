@@ -1,0 +1,6 @@
+n, m=map(int, input().split())
+s=[]
+for i in range(n):
+  a=list(map(int, input().split()))
+  s.append(min(a))
+print(max(s))
