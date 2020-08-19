@@ -1,0 +1,18 @@
+n, m, k=map(int, input().split())
+sum=0
+i=0
+a=list(map(int, input().split()))
+a.sort()
+while 1:
+  if(i>=m):
+    break;
+  for j in range(k):
+    if(i>m):
+      break;
+    i+=1
+    sum+=a[n-1] 
+  if(i>=m):
+    break;
+  i+=1
+  sum+=a[n-2]
+print(sum)
